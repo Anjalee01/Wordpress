@@ -1,0 +1,36 @@
+body {
+    background-color: aliceblue;
+}
+
+
+#para2{
+    background-color: brown;
+    border: 4px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#para3{
+    background-color: brown;
+}
+
+.main{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    background-color: brown;
+    margin: 20px;
+    padding: 30px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.two{
+    background-color: green;
+    margin: 20px;
+    padding: 30px;
+}
