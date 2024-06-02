@@ -1,0 +1,58 @@
+
+.main{
+    
+    display: flex;
+    
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+.cards{
+    border: 4px solid black;
+    width: 1000px;
+    margin: 50px;
+    padding: 20px;
+}
+#one{
+    background-color: brown;
+   
+    
+}
+nav{
+    display: flex;
+}
+#two{
+    background-color: gray;
+    
+}
+.heading{
+    text-align: center;
+}
+
+#three{
+    background-color: blueviolet;
+}
+
+.main-one{
+    display: flex;
+}
+
+.para{
+    border: 2px solid black;
+    width: 1000px;
+    height: 120px;
+    margin: 80px;
+    padding: 50px;
+    
+}
+
+#img{
+    max-width: 50%;
+    max-height: 50%;
+    margin: 80px;
+    padding: 50px;
+    border: 2px solid black;
+    
+}
