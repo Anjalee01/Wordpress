@@ -45,7 +45,14 @@ console.log("Hello world")
 
 // OBJECTS (Dictonaries)
 
-    let person = {
-        "firstName" : "John",
+// if else
+// let num = 11;
+// if (num >= 10){
+//     console.log("num is greater")
+// }
 
-    }
+    // let person = {
+    //     "firstName" : "John",
+        
+
+    // }
