@@ -1,4 +1,4 @@
-console.log("Hello world")
+// console.log("Hello world")
 
 // // variable
 
@@ -51,8 +51,96 @@ console.log("Hello world")
 //     console.log("num is greater")
 // }
 
+// And Gate 
+
+// let num =  5;
+// let num2 = 2;
+
+// if (num==2 && num2 == 5){
+//     console.log("num is equal");
+// } else {
+//     console.log("num is not equal")
+// }
+
+// Or gate 
+// let num =  5;
+// let num2 = 2;
+
+// if (num==2 || num2 == 5){
+//     console.log("num is equal");
+// } else {
+//     console.log("num is not equal")
+// }
+
+// Not gate 
+
+// let num2 = 2;
+
+// if (num==2){
+//     console.log("num is equal");
+// } else {
+//     console.log("num is not equal")
+// }
+
+
+// let day ="t";
+
+// if (day== "Monday"){
+//     console.log("Today is monday");
+// } 
+//  else if (day=="Tuseday"){
+//      console.log("Today is tuesday");
+//  }
+//     else if (day=="wed"){
+//      console.log("Today is wed");
+//  }
+//  else if (day=="thurs"){
+//      console.log("Today is thur");
+//  }
+//  else if (day=="friday"){
+//      console.log("Today is fri");
+//  }
+//  else{
+//      console.log("enter valid day");
+//  }
+
+
+// Switch Statment
+// let day = "Tuesday"
+
+// switch (day){
+//     case "Monday":
+//         console.log("Correct Day")
+//         break;
+//     case "Tuesday":
+//         console.log("Wrong Day")
+//         break;
+//     case "Wed":
+//         console.log("Wrong Day")
+//         break;
+//     case "Thurs":
+//         console.log("Wrong Day")
+//         break;
+//     case "fri":
+//         console.log("Wrong Day")
+//         break;
+//     case "sat":
+//         console.log("Wrong Day")
+//         break;
+//     case "sun":
+//         console.log("Wrong Day")
+//         break;
+    
+// For Loop
+// for (let i = 0; i<=10; i++){
+//     console.log("Hello world")
+// }
+// }
     // let person = {
     //     "firstName" : "John",
         
 
     // }
+
+
+    
