@@ -137,14 +137,52 @@
 // }
 // }
 
-for (let i = 1;  i<=10; i++){
-    console.log("2 x ${i} = ${2*i}");
-}
+// for (let i = 1;  i<=10; i++){
+//     console.log("2 x ${i} = ${2*i}");
+// }
+
+
+
+// While Loop
+// while (i<=10){}
+
+
+// ARRAY
+
+// let cars = ["BMW", "Ferari"]
+
+// console.log(cars)
+
+// Array_Index
+// console.log(cars[0])
+
+// Javascript do not take negativev indexes
+// console.log(cars[-1])
+
+// LENGTH
+
+// console.log(cars.length)
+
+// let len = cars.length
+// console.log(len)
+
+// // Negative index
+
+// let last_element =  cars.length -1;
+// console.log(cars[last_element])
+
+
+
+
     // let person = {
     //     "firstName" : "John",
         
 
     // }
 
+    let cars = ["BMW", "Ferari", "Mehran","xyz","abc"]
 
+    // for (let i=0; i=cars.length; i++){
+    //     console.log(cars[i])
+    // }
     
