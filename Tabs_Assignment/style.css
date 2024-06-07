@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.tab_text1{
+#tab_text1{
     background-color: darkgray;
     width: 20%;
     
@@ -25,7 +25,7 @@
    
 }
 
-.tab_text2{
+#tab_text2{
     background-color: darkgray;
     width: 20%;
     
@@ -36,7 +36,7 @@
    
 }
 
-.tab_text3{
+#tab_text3{
     background-color: darkgray;
     width: 20%;
     
