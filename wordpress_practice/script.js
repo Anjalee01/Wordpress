@@ -186,3 +186,32 @@
     //     console.log(cars[i])
     // }
     
+
+    // FUNCTION
+
+    // function greet_four_times(){
+    //     console.log("Hello World!")
+    //     console.log("Hello World!")
+    //     console.log("Hello World!")
+    //     console.log("Hello World!")
+    // }
+
+    // greet_four_times()
+
+    // function add_two_num(num1,num2){
+    //     sum = num1 +num2
+    //     console.log(sum)
+    // }
+
+    // add_two_num(1,2);
+    // add_two_num(3,2);
+    // add_two_num(4,2);
+    // add_two_num(5,2);
+
+    function geenerate_table(number, length){
+         for (i=1; i<=length; i++){
+            console.log(`${number} x ${i} = ${i*number}`)
+         }
+    }
+
+    geenerate_table(10,10);
