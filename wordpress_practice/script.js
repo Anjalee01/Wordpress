@@ -208,10 +208,10 @@
     // add_two_num(4,2);
     // add_two_num(5,2);
 
-    function geenerate_table(number, length){
-         for (i=1; i<=length; i++){
-            console.log(`${number} x ${i} = ${i*number}`)
-         }
-    }
+   //  function geenerate_table(number, length){
+   //       for (i=1; i<=length; i++){
+   //          console.log(`${number} x ${i} = ${i*number}`)
+   //       }
+   //  }
 
-    geenerate_table(10,10);
+   //  geenerate_table(10,10);
