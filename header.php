@@ -1,29 +1,44 @@
-<header >
+<!DOCTYPE html>
+<html lang="en">
 
-    <img class="header_image">
-    <?php
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <?php echo get_the_title(); ?>
+        <?php echo bloginfo("name"); ?>
+    </title>
 
-    the_custom_logo();
+    <?php wp_head();?>
+</head>
 
-    ?>
-    </img>
+<body>
+
+    <header>
+
+        <img class="header_image">
+        <?php
+
+        the_custom_logo();
+
+        ?>
+        </img>
 
 
-</header>
+    </header>
 
-<nav >
-    <?php
-    wp_nav_menu(array(
-        'theme_location' => 'primary',
-        'container' => 'ul',
-        'container_class' => 'main-menu',
-        'menu_class' => 'nav-menu',
-    ));
+    <nav>
+        <?php
+        wp_nav_menu(array(
+            'theme_location' => 'primary',
+            'container' => 'ul',
+            'container_class' => 'main-menu',
+            'menu_class' => 'nav-menu',
+        ));
 
-    wp_head();
+        wp_head();
 
-    ?>
+        ?>
 
-</nav>
-
+    </nav>
 

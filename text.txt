@@ -1,31 +1,7 @@
-<?php get_header(); ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-</html>
-
-<div class="custom-header">
-
-    <img alt="" src="<?php header_image(); ?>">
-</div>
-
-<section class="content-area">
-    <div class="  left-column">
-        <?php
-        
-        if (have_posts()) :
-            while (have_posts()) : the_post(); ?>
+<?php
+        $query = new WP_Query( array( 'cat' => 20 ) );
+        if ($query ->have_posts()) :
+            while ($query ->have_posts()) :$query -> the_post(); ?>
                 <div class="post">
                     <div class="post-heading">
                         <a href="<?php the_permalink(); ?>">
@@ -47,30 +23,5 @@
         <?php
             endwhile;
         endif;
-        
+        wp_reset_postdata();
         ?>
-
-        <?php echo paginate_links(); ?>
-
-    </div>
-    <div class=" right-column">
-        <!-- <h1>This  is  right area</h1>
-
-    <p>Lorem ipsum dolor sit amet.</p> -->
-
-        <?php get_sidebar(); ?>
-
-
-
-
-
-    </div>
-</section>
-
-
-
-<?php get_footer(); ?>
-
-
-
-
