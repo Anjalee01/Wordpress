@@ -10,6 +10,15 @@
     </title>
 
     <?php wp_head();?>
+    <style type="text/css">
+        nav{
+            background: <?php echo get_theme_mod('my_nav_bg_color', '#fff') ?>;
+        }
+    </style>
+
+
+
+    </style>
 </head>
 
 <body>
