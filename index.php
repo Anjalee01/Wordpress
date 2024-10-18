@@ -6,7 +6,7 @@
 
     <section class="card-container">
     <?php
-        $query = new WP_Query( array( 'post_type' => "mycustompost" ) );
+        $query = new WP_Query( array( 'post_type' => "  MyCustomPost" ) );
         if ( $query -> have_posts() ) :
             while ( $query -> have_posts() ) : $query -> the_post(); ?>
                 <a href="<?php the_permalink(); ?>" class="post-card">
