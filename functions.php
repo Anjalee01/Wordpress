@@ -59,6 +59,8 @@ add_theme_support( 'custom-header', $args );
 
 require get_template_directory() .'/customizer.php';
 
+require get_template_directory() .'/MyCustomPost.php';
+
 
 
 ?>

@@ -4,6 +4,8 @@
     <section class="content-area">
         <div class="left-column">
             <!-- Display posts directly in the index.php file -->
+
+             <h1 style="text-align: center; background-color:"><?php echo get_theme_mod('my_label_1', 'Actual Content') ?></h1>
             <?php
             if ( have_posts() ) :
                 while ( have_posts() ) : the_post(); ?>
